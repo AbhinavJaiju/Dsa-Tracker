@@ -52,7 +52,7 @@ if (op!=null)
     <Link to={name} className='w-[290px] lg:mx-8 lg:my-2 md:mx-6 md:my-1 '>
 
     { <div className={Math.round((ans*100)/qno)!=100  ? " flex items-center m-2 justify-between border-purple-300 shadow-lg  font-open-sans border-spacing-1.5  border-2 w-auto rounded-lg box-border p-8" :  " flex items-center m-2 justify-between border-purple-300 shadow-lg  font-open-sans border-spacing-1.5  border-2 w-auto rounded-lg box-border p-8  bg-green-100  " }>
-      <img className='w-6 h-6  mr-3 mt-0 align-top' src="https://pluspng.com/img-png/react-logo-png-js-logo-react-react-js-icon-512x512.png"></img>
+      <img className='w-6 h-6  mr-3 mt-0 align-top' src="https://pluspng.com/img-png/react-logo-png-js-logo-react-react-js-icon-512x512.png" alt='hello'></img>
       <div className=' '>
       <h2 className='text-xl text-slate-600 font-bold  mt-2'>{name}</h2>
       <h4 className='text-bg font-bold text-zinc-700 mt-2 mb-1'>Total Questions : {qno}</h4>
@@ -63,7 +63,7 @@ if (op!=null)
     // {console.log(ans)
     <div>      <div className=' justify-between mt-2  text-center flex ' >
       <h6 className=' rounded-xl  bg-green-300    pt-1 w-16  text-slate-700 text-xs text-center     ' > STARTED </h6>
-      <img src="https://th.bing.com/th/id/R.15e3df2a05ac767df4359bf37707b781?rik=YoELJf68lvMxWQ&riu=http%3a%2f%2fs3.amazonaws.com%2fpix.iemoji.com%2fimages%2femoji%2fapple%2fios-11%2f256%2fman-technologist-light-skin-tone.png&ehk=uinI8ak5dKPQXLDnNbEcTr%2bSuymPLXBS%2bBPUBpPLgcI%3d&risl=&pid=ImgRaw&r=0" className='w-5 h-5'></img>
+      <img src="https://th.bing.com/th/id/R.15e3df2a05ac767df4359bf37707b781?rik=YoELJf68lvMxWQ&riu=http%3a%2f%2fs3.amazonaws.com%2fpix.iemoji.com%2fimages%2femoji%2fapple%2fios-11%2f256%2fman-technologist-light-skin-tone.png&ehk=uinI8ak5dKPQXLDnNbEcTr%2bSuymPLXBS%2bBPUBpPLgcI%3d&risl=&pid=ImgRaw&r=0" className='w-5 h-5' alt='hello'></img>
       <h6 className='  text-green-700    ' >{Math.round((ans*100)/qno)}  %</h6>
       </div>
       <div  style={containerStyles}>
